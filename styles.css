@@ -48,6 +48,15 @@ a{
     position: relative;
 }
 
+@media (max-width: 768px) {
+    .navbar__list-item {
+        padding: 5px 10px;
+    }
+    .navbar__list-item a {
+        font-size: 1rem;
+    }
+}
+
 
 /*WELCOME SECTION*/
 .welcome {
