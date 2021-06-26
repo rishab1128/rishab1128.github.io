@@ -62,7 +62,7 @@ a{
 .welcome {
     height: 100vh;
     background-color: #120f23;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(assets/background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -71,4 +71,68 @@ a{
     justify-content: center;
     align-items: center;
     padding: 4rem 0;
+}
+
+.welcome__title {
+    font-size: 4rem;
+    margin: 0;
+    text-shadow: 1.20px 1.20px orange;
+    letter-spacing: 1.8px;
+}
+
+.welcome__subtitle {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+    text-shadow: 1px 1px orange;
+    text-align: center;
+}
+
+
+@media (max-width: 800px) {
+    .welcome__title {
+        font-size: 3rem;
+        text-shadow: none;
+    }
+    .welcome__subtitle {
+        font-size: 1.5rem;
+        text-shadow: none;
+    }
+}
+@media (max-width: 600px) {
+    .welcome__title {
+        font-size: 2.3rem;
+        margin-left: 0.5rem;
+        line-height: 1.2;
+    }
+    .welcome__subtitle {
+        margin-left: 0.5rem;
+    }
+}
+
+
+/* Typing Effect Styling*/
+.txt-type {
+    color: orange;
+    display: inline-block;
+}
+.cursor {
+    width: 3px;
+    background: white;
+    display: inline-block;
+    margin-left: 3px;
+    animation: blink 1s infinite;
+}
+.cursor.typing {
+    animation: none;
+}
+@keyframes blink {
+    60% {
+        background: transparent;
+    }
+}
+@media (max-width: 600px) {
+    .cursor {
+        width: 2px;
+    }
 }
