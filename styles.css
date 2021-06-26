@@ -48,7 +48,7 @@ a{
     position: relative;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .navbar__list-item {
         padding: 5px 10px;
     }
