@@ -79,3 +79,26 @@ function init(){
 
 }
 
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/* Change Navbar upon scrolling*/
+
+const  navbar = document.querySelector('.navbar');
+const  navLink = document.querySelectorAll('.nav-link');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+        navbar.style.background = "#404c52";
+        navbar.style.transition = "all .6s";
+        navLink.forEach((item) => {
+            item.style.color = "white";
+            item.style.transition = "all .6s";
+        }) 
+    }
+    else {
+        navbar.style.background = "none";
+        navLink.forEach((item) => {
+            item.style.color = white;
+        }) 
+    }
+})

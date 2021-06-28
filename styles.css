@@ -57,7 +57,6 @@ a{
     }
 }
 
-
 /*WELCOME SECTION*/
 .welcome {
     height: 100vh;
@@ -134,5 +133,66 @@ a{
 @media (max-width: 600px) {
     .cursor {
         width: 2px;
+    }
+}
+
+/* ABOUT SECTION */
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about__container {
+    max-width: 1100px;
+    display: flex;
+    margin: 6rem 0 2rem 0;
+}
+
+.about__desc {
+    flex: 3;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    padding: 0 2.5rem;
+    line-height: 1.6;
+}
+
+.about__pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.pic {
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    background: url('https://picsum.photos/seed/picsum/200/300');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 2px 4px black;
+}
+
+@media (max-width: 800px) {
+    .about__container {
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .about__desc {
+        order: 2;
+        font-size: 1.4rem;
+        padding-top: 1rem;
+    }
+    .about__pic {
+        order: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    .about__desc {
+        font-size: 1.25rem;
     }
 }
