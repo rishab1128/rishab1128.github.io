@@ -65,7 +65,14 @@ class TypeWriter{
 
 
 //Init on DOM Load
-document.addEventListener('DOMContentLoaded',init);
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(hide , 1000);
+    setTimeout(init,  1000);
+});
+
+function hide(){
+    document.querySelector('.preloader').style.display = 'none'
+}
 
 //Init App
 function init(){
