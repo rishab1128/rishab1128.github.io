@@ -116,7 +116,7 @@ a{
 .welcome {
     height: 100vh;
     background-color: #120f23;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/background-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -224,7 +224,7 @@ a{
     height: 225px;
     width: 225px;
     border-radius: 50%;
-    background: url('https://picsum.photos/seed/picsum/200/300');
+    background: url('assets/My-Photo-2.jpeg');
     background-size: cover;
     background-position: center;
     cursor: pointer;

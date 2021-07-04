@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Bellota Text
+- Font Author: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
+- Font Source: http://fonts.gstatic.com/s/bellotatext/v4/0FlTVP2VnlWS4f3-UE9hHXMB-dMOdS7sSg.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
